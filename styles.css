@@ -88,22 +88,7 @@ color: white;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1000px) and (min-width:375px){
+@media screen and (max-width:1000px) {
     .navbar{
         padding: 40px 10px;
     }
