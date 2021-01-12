@@ -55,7 +55,7 @@ color: white;
 .tagline{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 60px;
     padding-right: 85px;
     align-items: center;
@@ -124,6 +124,7 @@ color: white;
         align-items: flex-start;
         text-align: center;
         width: 100%;
+        padding: 0;
         
         
         
