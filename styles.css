@@ -231,7 +231,7 @@ border: none;
     color:black;
     float: right;
     position: absolute;
-    left: 600px;
+    right: 0;;
     list-style: none;
     opacity: 0.8;
     display: none;
