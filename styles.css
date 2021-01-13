@@ -377,6 +377,7 @@ border: none;
     width: 100%;
     justify-content: space-around;
     flex-wrap: nowrap;
+    text-align: justify;
     
 }
 .dblist ul{
@@ -391,6 +392,8 @@ border: none;
     margin-top: 50px;
 display: flex;
 flex-direction: column;
+width: 100%;
+text-align: center;
 
 }
 .first-part span{
@@ -398,6 +401,10 @@ flex-direction: column;
 }
 .first-part span img{
     margin: 0 5px;
+}
+.button{
+    text-align: center;
+    width: 100%;
 }
 
 .button input{
