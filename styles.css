@@ -168,7 +168,13 @@ color: white;
     .main-tagline{
         width: 100%;
         
+        
     }
+    .justify{
+        text-align: justify;
+        padding: 0 12px;
+    }
+    
    
     .bold-text{
         font-weight: 900;
@@ -206,7 +212,7 @@ color: white;
     .info{
         margin-top: 40px;
         width: 100%;
-        text-align: left;
+        text-align: justify;
        
     }
     h2{
@@ -214,8 +220,10 @@ color: white;
         text-align: center;
     }
     .text p{
+        text-align: justify;
         font-size: 17px;
         font-weight: lighter;
+        padding: 0 15px;
     }
     .info h3{
         display: inline-block;
@@ -238,8 +246,8 @@ color: white;
     }
     
     .info p{
-        padding-left: 0;
-        text-align:left;
+        padding:0 15px;
+        text-align:justify;
     }
     
     
