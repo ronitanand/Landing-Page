@@ -200,16 +200,18 @@ color: white;
     }
     .text{
         width: 100%;
-        text-align: center;
+        
     
     }
     .info{
         margin-top: 40px;
         width: 100%;
+        text-align: left;
        
     }
     h2{
         font-size:30px;
+        text-align: center;
     }
     .text p{
         font-size: 17px;
@@ -219,6 +221,7 @@ color: white;
         display: inline-block;
         font-size: 19px;
         font-weight: 700;
+        
         
     }
     
@@ -236,6 +239,7 @@ color: white;
     
     .info p{
         padding-left: 0;
+        text-align:left;
     }
     
     
