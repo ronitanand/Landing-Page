@@ -260,6 +260,58 @@ border: none;
     opacity: 1;
 }
 
+.said{
+    text-align: center;
+    font-size: 40px;
+}
+.slideshow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.slideshow div{
+    width:450px;
+    position: relative;
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 75px;
+}
+.slideshow div h3{
+    text-align: center;
+}
+.slideshow div p{
+    text-align: center;
+}
+.slideshow div img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top:-20%;
+    left: 40%;
+
+}
+.dot-pair{
+    width: fit-content;
+    margin: 0 auto;
+    display: none;
+}
+.dot{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color;
+    border: 1px solid black;
+    color: gray;
+    margin: 5px;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+}
+.dot:hover{
+    cursor: pointer;
+    background-color: gray;
+}
 
 
 
@@ -271,6 +323,7 @@ border: none;
     .navbar{
         padding: 0px 10px;
         padding-top: 40px;
+        
     }
     .list{
         display: none;
@@ -466,6 +519,63 @@ border: none;
     border-radius: 40px;
     font-size: 15px;
     
+}
+.slideshow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.slideshow div{
+    width:450px;
+    position: relative;
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 75px;
+}
+.slideshow div h3{
+    text-align: center;
+}
+.slideshow div p{
+    text-align: center;
+}
+.slideshow div img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top:-20%;
+    left: 40%;
+
+}
+.slide2{
+    display: none;
+}
+.slide3{
+    display: none;
+}
+.dot-pair{
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+.dot{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    
+    border: 1px solid black;
+    color: gray;
+    margin: 5px;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+}
+.dot:hover{
+    cursor: pointer;
+    background-color:grey;
+}
+.dot1{
+    background-color: grey;
 }
 
 
